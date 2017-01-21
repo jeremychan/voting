@@ -5,7 +5,7 @@ import {
     scryRenderedDOMComponentsWithTag,
     Simulate
 } from 'react-addons-test-utils';
-import Voting from '../components/Vote';
+import Voting from '../components/Voting';
 import {expect} from 'chai';
 
 describe('Voting', () => {

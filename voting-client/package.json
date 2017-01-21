@@ -61,7 +61,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/**/*@(.js|.jsx)\"",
+    "test": "mocha --compilers js:babel-core/register --require ./src/test/test_helper.js \"./src/test/**/*@(.js|.jsx)\"",
     "test:watch": "npm run test -- --watch"
   },
   "jest": {
